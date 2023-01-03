@@ -1,1 +1,36 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+  margin: 10px;
+}
+
+.card {
+  width: 200px;
+  height: 300px;
+  display: flex;
+  border-color: black;
+  margin: auto;
+  font-size: 2.5em;
+}
+
+.top {
+  text-align: left;
+  padding: 10px;
+  height: 50px;
+}
+
+.number {
+  text-align: center;
+  display: flex;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-family: "Times New Roman";
+}
+
+.bottom {
+  text-align: right;
+  padding: 10px;
+}
